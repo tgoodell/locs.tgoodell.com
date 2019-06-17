@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+main h1 {
+    border-bottom: solid #073763 2px;
+    line-height: 40px;
+}
+
+.sheet-card {
+    padding: 10px;
+    margin: 10px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+@media (max-width: 1253px) {
+    .sheet-card {
+        width: auto;
+    }
+}
+
+.card-title {
+    color: #000;
+    text-align: center;
+}
+
+.card-title a {
+    text-decoration: none;
+}
+
+.sheet-card p {
+    line-height: 30px;
+}
+
+.sheet-card p a {
+    color: #2b59c3;
+    border-bottom: 2px solid #2b59c3;
+    text-decoration: none;
+}
+
+.sheet-card p a:hover {
+    color: #073763;
+    border-color: #073763;
+}
+
+.author {
+    width: 30px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.author-name {
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.author-name a {
+    text-decoration: none;
+    color: #2b59c3;
+    border-bottom: 2px solid #2b59c3;
+}
+
+.author-name a:hover {
+    color: #073763;
+    border-color: #073763;
+}
+
+.socials {
+    float: right;
+}
+
+.social-icon {
+    width: 30px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.subscribe {
+    background-color: #302949;
+    margin-top: 1%;
+    padding: 2%;
+    text-align: center;
+}
+
+.subscribe button {
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #2b59c3;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background-color: #0b5394;
+}
+
+.gh-input {
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+    width: 400px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #2b59c3;
+    font-size: 16px;
+}
+
+@media (max-width: 455px) {
+    .gh-input {
+        width: auto;
+    }
+}
+
+.separator {
+    background-color: #cccccc;
+    width: 180px;
+    height: 1px;
+    margin: 15px auto 21px;
+}
+
+.separator span {
+    background-color: #2b59c3;
+    width: 30px;
+    height: 4px;
+    margin: 0px auto;
+    display: block;
+    position: relative;
+    bottom: 2px;
+}
+
+.cool-footer {
+    background-color: #073763;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.cool-footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
